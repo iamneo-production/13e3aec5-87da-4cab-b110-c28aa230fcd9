@@ -1,0 +1,32 @@
+.main3{
+    display: flex;
+}
+.sub1{
+    width: 25%;
+    height: 730px;
+}
+.sub2{
+    width: 38%;
+    height: 730px;
+}
+.sub3{
+    width: 37%;
+    height: 730px;
+}
+a:focus{
+    background-color: aqua; 
+}   
+.nav-item{
+    margin-top:15%;
+    margin-left:20%;
+    margin-right: 20%;
+    color:black;
+    font-size:20px;
+}
+.btn1{
+    margin-Top:  40px;
+    margin-Left:80px;
+}
+.dbtn{
+    padding: 100px;
+}
