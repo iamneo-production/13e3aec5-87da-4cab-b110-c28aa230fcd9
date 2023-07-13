@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+  }
+  .App {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .App .navbar {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-image: url('https://wallpapercave.com/wp/wp9440197.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(29, 161, 242, 1); */
+  }
+  
+  .App .navbar .nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: auto;
+  }
+  
+  .App .navbar .nav-links>a{
+    color: #fff;
+    text-decoration: none;
+  }
+  #para{
+    text-align: justify;
+    position: absolute;
+    left: 28rem;
+    top: 18rem;
+    font-size: 20px;
+    text-align-last: center;
+  }
+  .App{
+    background-image: url('https://img.freepik.com/free-vector/blank-blue-leafy-poster_53876-99945.jpg?w=900&t=st=1689158382~exp=1689158982~hmac=dd0a1d4efe8050caeebce16c2139d6f7250866b986ef18c48e84ccf7c0a9231e');
+    /* background-image: url('https://img.freepik.com/free-vector/flat-national-science-day-background_23-2149283132.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #btn{
+    justify-Content:center;
+    width:40px;
+    position:absolute;
+    left:43rem;
+    top:30rem;
+    width:185px;
+    height:50px;
+  }
+  .backimage{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190622/ourmid/pngtree-creative-synthesis-simple-book-education-and-training-background-image_219497.jpg');
+  }
+  
+  
+  

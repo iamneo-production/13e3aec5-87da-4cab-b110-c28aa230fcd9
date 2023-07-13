@@ -1,17 +1,35 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+{/* <ul style={{ listStyleType: "none", padding: 0 }}> */}
+    {/* <ul class="nav flex-column"> */}
+  {/* {/* <li class="navitems">
+  <Link className="nav-link"  style={{color:'black'}}>Personal details</Link>
+  </li> */}
+  {/* <li>
+  <Link style={{color:'black'}}>Professional details</Link>
+  </li> */}
+  {/* <li class="navitems">
+    <Link className="nav-link" style={{color:'black'}} >Skills</Link>
+  </li>
+  <li class="navitems">
+    <Link className="nav-link" style={{color:'black'}}>Educational details</Link>
+  </li>
+  <li class="navitems">
+    <Link className="nav-link" style={{color:'black'}}>Projects</Link>
+  </li> */} 
+  {/* <li class="navitems">
+    <Link className="nav-link" style={{color:'black'}}>Projects</Link>
+  </li> */}
+{/* </ul> */}
